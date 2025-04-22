@@ -39,7 +39,7 @@ const CoursesList = () => {
         <SearchBar data={input}/>
       </div>
       { input && <div className='inline-flex items-center gap-4 px-4 py-2 border mt-8-mb-8 text-gray-600'>
-      ;  <p>{input}</p>
+       <p>{input}</p>
         <img src={assets.cross_icon} alt="gap" className='cursor-pointer' onClick={()=>navigate('/course-list/')} />
       </div>
 
